@@ -1,0 +1,66 @@
+BEGIN:VCALENDAR
+CALSCALE:GREGORIAN
+VERSION:2.0
+X-WR-CALNAME:Jaschas Bday - Letzte Chance: Umtrunk zur wohlmöglich letzt
+ en Zeitumstellung eures Lebens!
+METHOD:PUBLISH
+PRODID:-//Apple Inc.//Mac OS X 10.13.6//EN
+BEGIN:VTIMEZONE
+TZID:Europe/Berlin
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+DTSTART:19810329T020000
+TZNAME:MESZ
+TZOFFSETTO:+0200
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+DTSTART:19961027T030000
+TZNAME:MEZ
+TZOFFSETTO:+0100
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+TRANSP:OPAQUE
+DTEND;TZID=Europe/Berlin:20181028T000000
+UID:73564227-24A2-48E9-ACA0-7DA44A5F6EF9
+DTSTAMP:20180831T220744Z
+LOCATION:MAFINEX Technologiezentrum\nJulius-Hatry-Straße 1\, 68163 Mannh
+ eim\, Deutschland
+DESCRIPTION:Wo genau? In der Lounge (Bauteil-C\, Erdgeschoss\, dort wo n
+ och Licht brennt)\n\nJooo... dachte mir zum 30ten kann man mal was veran
+ stalten. Daher will ich mit euch am 27. Oktober nicht nur die letzte Gel
+ egenheit ausnutzen durch die Zeitumstellung eine Stunde länger mit euch 
+ abzuhängen (ich mein ganz ehrlich\, dass mach ich doch nicht freiwillig)
+ \, sondern in gemütlicher Runde meinen 30ten nachzufeiern. Man wird nur 
+ einmal 30 sagen die Leute\, totaler Blödsinn\, ich werde jedes Jahr nur 
+ einmal irgendwas... Anyway\, hab bock auf euch\, daher hab ich die Loung
+ e im MAFINEX für uns organisiert damit meine Bude diesmal sauber bleibt 
+ und das Gelage seine gebührenden Atmosphäre erhält. Ein Profi-Ulrich-Tis
+ chkicker steht bereit\, für ein kleines Tischkicker-Turnier-Intermezzo s
+ teht also nichts im Wege. Ach da war noch was\, Startup-Life und so. Da 
+ mein Monatsgehalt bereist für die zwei\, drei Kästen Bier und die Reinig
+ ungskosten drauf geht wär es Hammer wenn ihr goldenen Bölkstoff selbst m
+ itbring oder worauf auch immer ihr Bock habt! Ihr habt Fragen\, ihr brau
+ cht noch was\, wollt in MA übernachten? >> Call me (+49 157 738 198 80).
+URL;VALUE=URI:https://goo.gl/forms/DMwt7n3zhhLv90JI2
+SEQUENCE:0
+X-APPLE-TRAVEL-ADVISORY-BEHAVIOR:DISABLED
+SUMMARY:Jaschas Bday - Letzte Chance: Umtrunk zur wohlmöglich letzten Ze
+ itumstellung eures Lebens!
+DTSTART;TZID=Europe/Berlin:20181027T190000
+CREATED:20180828T202530Z
+X-APPLE-STRUCTURED-LOCATION;VALUE=URI;X-APPLE-RADIUS=49.91306304931641;X
+ -TITLE="MAFINEX Technologiezentrum\nJulius-Hatry-Straße 1, 68163 Mannhei
+ m, Deutschland":geo:49.473358,8.474543
+BEGIN:VALARM
+X-WR-ALARMUID:E72C8BAB-9F99-49F5-9680-CE0287995DA5
+UID:E72C8BAB-9F99-49F5-9680-CE0287995DA5
+TRIGGER:-P1D
+DESCRIPTION:Erinnerung an ein Ereignis
+ACTION:DISPLAY
+END:VALARM
+END:VEVENT
+END:VCALENDAR
