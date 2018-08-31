@@ -95,9 +95,9 @@
                 <!-- FOOTER BUTTONS -->
                 <v-card-actions class="pa-3">
                   <v-spacer></v-spacer>
-                  <v-btn class="mr-4" flat @click="downloadEvent" v-mojs="mojsSimpleBurst">
+                  <v-btn class="mr-2" flat @click="downloadEvent" v-mojs="mojsSimpleBurst">
                     <v-icon v-if="!isMobile" dark left>cloud_download</v-icon>
-                    {{i18n.downloadEvent[selectedLang.key]}}
+                    {{isMobile ? `${i18n.downloadEvent[selectedLang.key].slice(0,15)}...` : i18n.downloadEvent[selectedLang.key]}}
                   </v-btn>
                   <v-btn
                     v-mojs="mojsSimpleBurst"
